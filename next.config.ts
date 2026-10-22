@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const repo = "citepatch-20261022";
-const isPages = process.env.GITHUB_ACTIONS === "true";
+const isPages = process.env.GITHUB_ACTIONS === "true" && process.env.PLAYWRIGHT_TEST !== "1";
 const nextConfig: NextConfig = {
   output: "export",
   trailingSlash: true,
