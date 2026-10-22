@@ -1,0 +1,39 @@
+{
+  "brand": "Northstar Billing",
+  "domain": "northstar.example",
+  "pages": [
+    {
+      "id": "pricing",
+      "label": "Pricing page",
+      "url": "/pricing",
+      "prompt": "best usage-based billing software for a small SaaS",
+      "engines": 4,
+      "brandCitations": 1,
+      "competitorCitations": 4,
+      "signals": {"clearPrice": false, "updatedDate": false, "proof": true, "comparison": false},
+      "competitors": ["Meterly /pricing", "Billflow /plans", "Chargebase /pricing" ]
+    },
+    {
+      "id": "docs",
+      "label": "API docs",
+      "url": "/docs/usage-events",
+      "prompt": "how to implement usage based billing webhooks",
+      "engines": 4,
+      "brandCitations": 2,
+      "competitorCitations": 3,
+      "signals": {"clearPrice": true, "updatedDate": false, "proof": false, "comparison": true},
+      "competitors": ["Meterly /docs/events", "PayloadPay /guides/webhooks"]
+    },
+    {
+      "id": "comparison",
+      "label": "Comparison page",
+      "url": "/compare/meterly",
+      "prompt": "Northstar Billing vs Meterly",
+      "engines": 4,
+      "brandCitations": 0,
+      "competitorCitations": 4,
+      "signals": {"clearPrice": false, "updatedDate": true, "proof": false, "comparison": true},
+      "competitors": ["Meterly /compare", "SaaSStack /billing-tools"]
+    }
+  ]
+}

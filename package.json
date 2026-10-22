@@ -1,0 +1,14 @@
+{
+  "name": "citepatch-20261022",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "playwright test",
+    "audit": "npm audit --audit-level=high"
+  },
+  "dependencies": {"next": "16.4.2", "react": "19.2.0", "react-dom": "19.2.0"},
+  "devDependencies": {"@playwright/test": "1.56.1", "@types/node": "24.9.1", "@types/react": "19.2.2", "@types/react-dom": "19.2.2", "typescript": "5.9.3"}
+}
